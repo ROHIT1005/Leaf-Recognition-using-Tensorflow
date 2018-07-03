@@ -13,7 +13,7 @@ Detection of Leaves in a Plant using TensorFlow and SSD Mobilenet Model.
   Download and extract the model. The config file should be edited accordingly if any changes are made.
   
   To train the model, get into the environment and run this command at all directories:
-  `export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim`
+    ```export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim```
 
   From the models/research/object_detection :
   python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v2_coco.config
@@ -28,7 +28,7 @@ Detection of Leaves in a Plant using TensorFlow and SSD Mobilenet Model.
     --trained_checkpoint_prefix training/model.ckpt-1090 \
     --output_directory leaf_graph
     
-   A frozen_graph.pb generated inside the leaf_graph directory is to be used in the Detection.ipynb file
+   A frozen_inference_graph.pb generated inside the leaf_graph directory is to be used in the Detection.ipynb file
    The test_images folder should contain the neccessary images on which image processing is to be done.
 
   NOTE: I've provided the leaf_graph folder based on my training and my images; if you are unable to create your own model; use         this
