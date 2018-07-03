@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Untitled Folder</folder>
+	<filename>01efa999-757d-487e-8250-27c7854c0ca8___RS_HL 7515.JPG</filename>
+	<path>/home/iadmin/Desktop/Untitled Folder/01efa999-757d-487e-8250-27c7854c0ca8___RS_HL 7515.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>256</width>
+		<height>256</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>31</ymin>
+			<xmax>248</xmax>
+			<ymax>256</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Untitled Folder 2</folder>
+	<filename>leafimgs_001.jpg</filename>
+	<path>/home/iadmin/Desktop/Untitled Folder 2/leafimgs_001.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>275</width>
+		<height>183</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>6</ymin>
+			<xmax>272</xmax>
+			<ymax>177</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>plant images _ Google Search</folder>
+	<filename>plant_037.jpg</filename>
+	<path>/home/iadmin/Downloads/plant images _ Google Search/plant_037.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>225</width>
+		<height>225</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>110</xmin>
+			<ymin>171</ymin>
+			<xmax>136</xmax>
+			<ymax>202</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>leaf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>94</xmin>
+			<ymin>121</ymin>
+			<xmax>116</xmax>
+			<ymax>169</ymax>
+		</bndbox>
+	</object>
+</annotation>
