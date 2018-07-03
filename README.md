@@ -17,13 +17,14 @@ Detection of Leaves in a Plant using TensorFlow and SSD Mobilenet Model.
   ```export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim```
 
   From the models/research/object_detection :
-  python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v2_coco.config
+  
+  ```python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v2_coco.config```
 
   The number of steps to be run, is dependent on the user and the amount of error.
 
   This generates a numbered ckpt file in training directory; based on the latest checkpoint select the apt number and run the     following command:
   
-  python export_inference_graph.py \
+   python export_inference_graph.py \
     --input_type image_tensor \
     --pipeline_config_path training/ssd_mobilenet_v2_coco.config \
     --trained_checkpoint_prefix training/model.ckpt-1090 \
