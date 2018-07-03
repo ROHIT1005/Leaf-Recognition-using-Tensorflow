@@ -13,7 +13,8 @@ Detection of Leaves in a Plant using TensorFlow and SSD Mobilenet Model.
   Download and extract the model. The config file should be edited accordingly if any changes are made.
   
   To train the model, get into the environment and run this command at all directories:
-    ```export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim```
+  
+  ```export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim```
 
   From the models/research/object_detection :
   python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v2_coco.config
